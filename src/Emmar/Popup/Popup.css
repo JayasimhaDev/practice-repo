@@ -1,0 +1,60 @@
+.popup-box {
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100vh;
+}
+.box {
+	position: relative;
+	width: 30%;
+	min-height: 550px;
+	background-color: #fff;
+	border: 1px solid #999;
+	border-radius: 4px;
+	margin: 20px auto;
+	padding: 20px;
+	overflow: auto;
+}
+.btn-close {
+	padding: 3px;
+	cursor: pointer;
+	position: fixed;
+	right: calc(37.4% - 35px);
+	margin-top: -20px;
+	font-size: 20px;
+	border-style: none;
+	color: black;
+}
+#Lable-holder {
+	margin-bottom: 20px;
+}
+#name {
+	margin-top: 10px;
+	padding: 8px 115px;
+}
+#email {
+	padding: 8px 115px;
+	margin-top: 10px;
+}
+#number {
+	padding: 8px 115px;
+	margin-top: 10px;
+}
+#submit {
+	padding: 8px 170px;
+	margin-top: 0px;
+	color: #fff;
+	background-color: black;
+}
+.Lable-number {
+	margin-top: 10px;
+}
+.ul-checkbox {
+	display: flex;
+	list-style-type: none;
+}
+.checkbox {
+	padding: 10px 10px;
+}

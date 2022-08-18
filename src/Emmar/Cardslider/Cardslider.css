@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
+}
+.slide-images {
+	display: flex;
+	overflow: hidden;
+	position: relative;
+}
+.slide-container {
+	gap: 0.2rem;
+}
+.card-slider-main {
+	padding: 2rem;
+}
+.leftbutton-slide {
+	position: absolute;
+	top: 40%;
+	font-size: 20px;
+	background-color: transparent;
+	color: black;
+	border-style: none;
+}
+.rightbutton-slide {
+	position: absolute;
+	top: 40%;
+	right: 0.8rem;
+	font-size: 20px;
+	background-color: transparent;
+	color: black;
+	border-style: none;
+}
+.image-div h2 {
+	text-align: center;
+}
+.image-div h5 {
+	text-align: justify;
+	width: 90%;
+	margin-left: 0.5rem;
+}
+.image-div {
+	/* width: 90%; */
+}
+
+@media screen and (max-width: 600px) {
+	.rightbutton-slide {
+		right: 0rem;
+	}
+}

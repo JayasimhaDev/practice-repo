@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
+}
+.cardsection-two {
+	padding: 0rem;
+	margin: 0rem 3rem;
+}
+.gallery-section-two {
+	display: flex;
+	gap: 1rem;
+	padding: 2rem;
+}
+.text-section-two {
+	display: grid;
+	/* max-width: 470px; */
+	gap: 1rem;
+}
+.col-first-two {
+	display: flex;
+	gap: 9rem;
+}
+.p-tag-title-two {
+	font-size: 10px;
+	color: gray;
+}
+.direction-button-two {
+	color: white;
+	background-color: black;
+	border-radius: 4px;
+}
+.subimages-div-two {
+	display: flex;
+	gap: 0.5rem;
+	overflow: hidden;
+}
+.direction-div-two {
+	padding: 6px 10px;
+	overflow: hidden;
+	padding-left: 30px;
+}
+.img-title-two {
+	text-align: center;
+}
+.getintouch-button-two {
+	text-align: center;
+}
+.touch-button-two {
+	padding: 0.8rem 3rem;
+	overflow: auto;
+	color: aliceblue;
+	background-color: black;
+	border-radius: 5px;
+}
+.images-2 img {
+	border-radius: 5px;
+}
+.img-section-two {
+	position: relative;
+}
+.img-section-two img {
+	width: auto;
+	height: auto;
+}
+.leftbutton-two {
+	top: 50%;
+	position: absolute;
+	border-style: none;
+	font-size: 20px;
+	background-color: transparent;
+	color: black;
+}
+.rightbutton-two {
+	top: 50%;
+	position: absolute;
+	right: 0.1rem;
+	border-style: none;
+	font-size: 20px;
+	background-color: transparent;
+	color: black;
+}
+@media screen and (max-width: 600px) {
+	.col-first-two {
+		gap: 0.2rem;
+	}
+	.subimages-div-two {
+		display: grid;
+	}
+	.gallery-section-two {
+		flex-wrap: wrap;
+	}
+	.img-section-two {
+		overflow: hidden;
+	}
+	.subimages-div-two {
+		text-align: center;
+	}
+	.direction-div-two {
+		padding-left: 0px;
+		margin-left: 0rem;
+	}
+	.cardsection-two {
+		margin: 0rem 0rem;
+	}
+	.title-card-two h1 {
+		font-size: 20px;
+	}
+}
