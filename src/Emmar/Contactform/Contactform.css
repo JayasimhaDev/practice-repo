@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lato:ital,wght@0,400;1,700&family=Montserrat:wght@300&family=Nunito:wght@200&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+.closeform {
+	padding: 0.5rem 0.7rem;
+	border-radius: 100px;
+	right: -5px;
+	top: -5px;
+	position: absolute;
+	z-index: 1;
+	font-size: 15px;
+	font-weight: 1000;
+	cursor: pointer;
+	border-style: none;
+}
+.contactform {
+	width: 100%;
+	height: 100vh;
+	left: 0;
+	top: 0;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.box-form {
+	width: 31%;
+	position: relative;
+	min-height: 750px;
+	background-color: white;
+	border: 1px solid black;
+	margin: 20px auto;
+	padding: 20px;
+	overflow: auto;
+}
+.button-form-div {
+	border: 1px solid;
+	padding: 0.1rem 0rem;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 100px;
+	width: 100%;
+}
+.button-form-div button {
+	width: 140px;
+	border-radius: 50px;
+	border-color: white;
+	height: 40px;
+}
+.visitbutton {
+	color: white;
+	font-weight: 1000;
+	background-color: rgb(96, 195, 173);
+	border-style: none;
+}
+.unlockbutton {
+	color: white;
+	font-weight: 1000;
+	background-color: rgb(96, 195, 173);
+	border-style: none;
+}
+.details-div-form {
+	border: 1px solid rgb(150, 212, 192);
+	background-color: rgb(214, 255, 241);
+	border-radius: 7px;
+	margin-top: 1rem;
+	text-align: center;
+	width: 100%;
+}
+.inside-div {
+	padding: 10px;
+}
+.name-div {
+	display: flex;
+	width: 100%;
+}
+#firstname {
+	padding: 0.8rem 0.7rem;
+	border-radius: 5px;
+	border-style: none;
+	width: 50%;
+}
+#lastname {
+	padding: 0.8rem 0.7rem;
+	border-radius: 5px;
+	border-style: none;
+	width: 50%;
+}
+#mobilenumber {
+	color: gray;
+}
+.mobilenumber {
+	display: flex;
+	justify-content: start;
+	background-color: white;
+	margin-top: 12px;
+	padding: 9px 9px;
+	gap: 0.6rem;
+	border-radius: 10px;
+	overflow: hidden;
+}
+#mobilenum {
+	border-style: none;
+	border-color: white;
+}
+.mobilenumber img h3 input {
+	padding: 0.8rem 0rem;
+	border: 1px solid white;
+}
+.working-div-form p {
+	text-align: start;
+}
+.working-div-form input {
+	justify-content: space-between;
+	position: relative;
+}
+.iama-div {
+	display: flex;
+	gap: 0.4rem;
+	margin-top: 13px;
+}
+
+.details-div-form {
+	padding: 15px;
+}
+.working-div-form {
+	margin-top: 12px;
+	width: 100%;
+}
+#workingprofessional {
+	width: 20px;
+}
+#student {
+	width: 20px;
+}
+.select-month-lable {
+	width: 100%;
+	height: 49px;
+	border-radius: 10px;
+	border-style: none;
+}
+.select-month {
+	margin-top: 14px;
+}
+.visit-div-form p {
+	text-align: start;
+}
+.visit-div-form {
+	margin-top: 12px;
+}
+.date-first-button {
+	width: 75%;
+	height: 49px;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: 1000;
+	border-style: none;
+	padding: 6px;
+	border: 1px solid;
+	background-color: white;
+	border-color: white;
+}
+.date-picker-button {
+	width: 20%;
+	height: 49px;
+	border-radius: 10px;
+	text-align: center;
+	border-style: none;
+	padding: 6px;
+	border: 1px solid;
+	background-color: white;
+	border-color: white;
+}
+.button-four-div {
+	margin-top: 12px;
+	justify-content: space-between;
+	display: flex;
+}
+.time-div-form p {
+	text-align: start;
+}
+.time-div-form {
+	margin-top: 12px;
+	position: relative;
+}
+.button-five-div {
+	margin-top: 14px;
+}
+.time-first-but {
+	width: 90%;
+}
+.button-five-div {
+	display: flex;
+	justify-content: space-around;
+}
+
+.button-five-div button {
+	padding: 0.5rem 0.9rem;
+	border-radius: 50px;
+	border-style: none;
+	border: 1px solid;
+	border-color: white;
+	background-color: white;
+}
+.inside-two-div {
+	border-radius: 7px;
+	margin-top: 1.5rem;
+	width: 100%;
+}
+.react-switch-checkbox {
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+.react-switch-label {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+	width: 40px;
+	height: 20px;
+	background: rgb(96, 195, 173);
+	border-radius: 100px;
+	position: relative;
+	transition: background-color 0.1s;
+}
+
+.react-switch-label .react-switch-button {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 20px;
+	height: 20px;
+	border-radius: 45px;
+	transition: 0.1s;
+	background: #fff;
+	box-shadow: 0 0 1px 0 rgba(10, 10, 10, 0.29);
+}
+
+.react-switch-checkbox:checked + .react-switch-label .react-switch-button {
+	left: calc(100% - 2px);
+	transform: translateX(-100%);
+}
+
+.react-switch-label:active .react-switch-button {
+	width: 60px;
+}
+.social-whatsapp {
+	display: flex;
+	justify-content: space-between;
+}
+.radio-button {
+	margin-top: -20px;
+}
+.whtasappbutton {
+	color: rgb(11, 201, 74);
+}
+.checkbox-last {
+	width: 25px;
+	height: 25px;
+}
+.checkbox-div {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 19px;
+	width: 100%;
+}
+.last-final-button {
+	margin-top: 30px;
+	width: 100%;
+}
+.visit-button {
+	width: 390px;
+	height: 45px;
+	border-radius: 10px;
+	background: rgb(96, 195, 173);
+	color: white;
+	font-weight: 1000;
+	border-style: none;
+	width: 100%;
+}
+.date-target {
+	border-style: none;
+	width: 42px;
+	font-size: 38px;
+	margin-top: -8.5px;
+	overflow: hidden;
+	color: white;
+	text-align: center;
+}
+.date-picker-button input:focus {
+	border-style: none;
+	outline: none;
+}
+.mobilenumber input:focus {
+	outline: none;
+}
+.name-div input:focus {
+	outline: none;
+}
+@media only screen and (max-width: 600px) {
+	.contactform {
+		width: 100%;
+		height: 100vh;
+	}
+	.box-form {
+		width: 80%;
+		overflow: hidden;
+	}
+	.visitbutton {
+		width: 100%;
+	}
+	.unlockbutton {
+		width: 100%;
+	}
+	.button-form-div {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 1020px) {
+	.contactform {
+		width: 100%;
+		height: 100vh;
+		overflow: scroll;
+	}
+	.box-form {
+		width: 80%;
+		overflow: hidden;
+	}
+	.last-final-button {
+		width: 100%;
+	}
+	.button-form-div {
+		width: 100%;
+	}
+	.visitbutton {
+		width: 100%;
+	}
+	.unlockbutton {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 900px) {
+	.contactform {
+		width: 100%;
+		height: 100vh;
+		overflow: scroll;
+	}
+	.box-form {
+		width: 80%;
+		overflow: hidden;
+	}
+	.last-final-button {
+		width: 100%;
+	}
+	.button-form-div {
+		width: 100%;
+	}
+	.visitbutton {
+		width: 100%;
+	}
+	.unlockbutton {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 300px) {
+	.contactform {
+		width: 100%;
+		height: 100vh;
+		overflow: scroll;
+	}
+	.box-form {
+		width: 80%;
+		overflow: hidden;
+	}
+	.last-final-button {
+		width: 100%;
+	}
+	.button-form-div {
+		width: 100%;
+	}
+	.visitbutton {
+		width: 100%;
+	}
+	.unlockbutton {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 1300px) {
+	.contactform {
+		width: 100%;
+		height: 100vh;
+		overflow: scroll;
+	}
+	.box-form {
+		width: 80%;
+		overflow: hidden;
+	}
+	.last-final-button {
+		width: 100%;
+	}
+	.button-form-div {
+		width: 100%;
+	}
+	.visitbutton {
+		width: 100%;
+	}
+	.unlockbutton {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 200px) {
+	.contactform {
+		width: 100%;
+		height: 100vh;
+		overflow: scroll;
+	}
+	.box-form {
+		width: 80%;
+		overflow: hidden;
+	}
+	.last-final-button {
+		width: 100%;
+	}
+	.button-form-div {
+		width: 100%;
+	}
+	.visitbutton {
+		width: 100%;
+	}
+	.unlockbutton {
+		width: 100%;
+	}
+}

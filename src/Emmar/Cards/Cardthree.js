@@ -43,7 +43,7 @@ const Cardthree = (setOpen) => {
 						<img
 							src={subdata[move].src}
 							alt=" "
-							style={{ width: '800px', height: '500px' }}
+							
 						/>
 						<button className="rightbutton-one" onClick={slidefront}>
 							<BsFillArrowRightCircleFill />
@@ -75,7 +75,7 @@ const Cardthree = (setOpen) => {
 								<img
 									src={subdata[0].src}
 									alt=""
-									style={{ width: '150px', height: '200px' }}
+									
 								/>
 								<h4 className="img-title">HEBBAL</h4>
 							</div>
@@ -83,7 +83,7 @@ const Cardthree = (setOpen) => {
 								<img
 									src={subdata[1].src}
 									alt=""
-									style={{ width: '150px', height: '200px' }}
+									
 								/>
 								<h4 className="img-title">RAJANKUNTE</h4>
 							</div>
@@ -91,7 +91,7 @@ const Cardthree = (setOpen) => {
 								<img
 									src={subdata[2].src}
 									alt=""
-									style={{ width: '150px', height: '200px' }}
+									
 								/>
 								<h4 className="img-title">KALYANNAGAR</h4>
 							</div>

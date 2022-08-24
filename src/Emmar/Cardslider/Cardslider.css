@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lato:ital,wght@0,400;1,700&family=Montserrat:wght@300&family=Nunito:wght@200&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 .slide-images {
 	display: flex;
@@ -17,19 +19,19 @@
 }
 .leftbutton-slide {
 	position: absolute;
-	top: 40%;
+	top: 30%;
 	font-size: 20px;
 	background-color: transparent;
-	color: black;
+	color: orangered;
 	border-style: none;
 }
 .rightbutton-slide {
 	position: absolute;
-	top: 40%;
-	right: 0.8rem;
+	top: 30%;
+	right: 0rem;
 	font-size: 20px;
 	background-color: transparent;
-	color: black;
+	color: orangered;
 	border-style: none;
 }
 .image-div h2 {
@@ -40,12 +42,29 @@
 	width: 90%;
 	margin-left: 0.5rem;
 }
-.image-div {
-	/* width: 90%; */
+.image-div img {
+	width: 100%;
+	border: 1px solid;
 }
-
+.slide-images {
+	gap: 0.3rem;
+}
 @media screen and (max-width: 600px) {
+	.slide-images {
+		width: 100%;
+	}
+	.image-div img {
+		width: 100vw;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.slide-images {
+		width: 100%;
+	}
 	.rightbutton-slide {
-		right: 0rem;
+		top: 30%;
+	}
+	.leftbutton-slide {
+		top: 30%;
 	}
 }

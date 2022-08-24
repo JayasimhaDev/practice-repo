@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.img-container {
+	position: relative;
+	animation: mymove 1s;
+}
+@keyframes mymove {
+	from {
+		right: 0px;
+	}
+	to {
+		right: 100%;
+	}
+}
+.img-container img {
+	width: 100%;
+	height: 300px;
+}
+.leftbutton-container {
+	position: absolute;
+	top: 50%;
+	left: 0rem;
+	font-size: 20px;
+	background: transparent;
+	border-style: none;
+	color: white;
+}
+.rightbutton-container {
+	position: absolute;
+	top: 50%;
+	right: 0rem;
+	font-size: 20px;
+	background: transparent;
+	border-style: none;
+	color: white;
+}
+
+.button-div-two {
+	position: absolute;
+	top: 80%;
+	right: 5rem;
+	gap: 2rem;
+}
+.contactbutton {
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	background: transparent;
+	border-color: white;
+	border-left-color: white;
+	border-right-color: white;
+}
+.lablebutton {
+	padding: 0.5rem 0.5rem;
+	border-radius: 5px;
+}

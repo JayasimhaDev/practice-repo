@@ -26,8 +26,8 @@ const Cardtwo = (setOpen) => {
 			setMove(+move + 1);
 		}
 	};
-	 const togglePopup = () => {
-	 	setOpen(true);
+	const togglePopup = () => {
+		setOpen(true);
 	};
 	const showInMapClicked = () => {
 		window.open('https://maps.google.com?q=' + 12.9 + ',' + 77.5969);
@@ -62,27 +62,15 @@ const Cardtwo = (setOpen) => {
 						</div>
 						<div className="subimages-div-two">
 							<div className="images-2">
-								<img
-									src={subdata[4].src}
-									alt=""
-									style={{ width: '150px', height: '200px' }}
-								/>
+								<img src={subdata[4].src} alt="" />
 								<h4 className="img-title-two">HEBBAL</h4>
 							</div>
 							<div className="images-2">
-								<img
-									src={subdata[5].src}
-									alt=""
-									style={{ width: '150px', height: '200px' }}
-								/>
+								<img src={subdata[5].src} alt="" />
 								<h4 className="img-title-two">JAKKURU</h4>
 							</div>
 							<div className="images-2">
-								<img
-									src={subdata[6].src}
-									alt=""
-									style={{ width: '150px', height: '200px' }}
-								/>
+								<img src={subdata[6].src} alt="" />
 								<h4 className="img-title-two">KODIGEHALLI</h4>
 							</div>
 						</div>
@@ -96,11 +84,7 @@ const Cardtwo = (setOpen) => {
 						<button className="leftbutton-two" onClick={slideback}>
 							<BsFillArrowLeftCircleFill />
 						</button>
-						<img
-							src={subdata[move].src}
-							alt=" "
-							style={{ width: '800px', height: '500px' }}
-						/>
+						<img src={subdata[move].src} alt=" " />
 						<button className="rightbutton-two" onClick={slidefront}>
 							<BsFillArrowRightCircleFill />
 						</button>

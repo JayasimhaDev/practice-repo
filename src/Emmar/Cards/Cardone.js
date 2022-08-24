@@ -40,11 +40,7 @@ const Cardone = (setOpen) => {
 						<button className="leftbutton" onClick={slideback}>
 							<BsFillArrowLeftCircleFill />
 						</button>
-						<img
-							src={subdata[move].src}
-							alt=" "
-							style={{ width: '800px', height: '500px' }}
-						/>
+						<img src={subdata[move].src} alt=" " />
 						<button className="rightbutton-one " onClick={slidefront}>
 							<BsFillArrowRightCircleFill />
 						</button>
@@ -72,27 +68,15 @@ const Cardone = (setOpen) => {
 						</div>
 						<div className="subimages-div">
 							<div className="images-1">
-								<img
-									src={subdata[0].src}
-									alt=""
-									style={{ width: '150px', height: '200px' }}
-								/>
+								<img src={subdata[0].src} alt="" />
 								<h4 className="img-title">HEBBAL</h4>
 							</div>
 							<div className="images-1">
-								<img
-									src={subdata[1].src}
-									alt=""
-									style={{ width: '150px', height: '200px' }}
-								/>
+								<img src={subdata[1].src} alt="" />
 								<h4 className="img-title">RAJANKUNTE</h4>
 							</div>
 							<div className="images-1">
-								<img
-									src={subdata[2].src}
-									alt=""
-									style={{ width: '150px', height: '200px' }}
-								/>
+								<img src={subdata[2].src} alt="" />
 								<h4 className="img-title">KALYANNAGAR</h4>
 							</div>
 						</div>

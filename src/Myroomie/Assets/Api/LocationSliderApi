@@ -1,0 +1,67 @@
+const LocationApi = [
+	{
+		id: 1,
+		location: 'Mangalore',
+		title: 'Boys',
+		para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sed exercitationem',
+		src: 'https://www.myroomie.in/assets/img/property/flora/t-flora.jpg',
+	},
+	{
+		id: 2,
+		location: 'Bangalore',
+		title: 'Boys',
+		para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sed exercitationem',
+		src: 'https://www.myroomie.in/assets/img/property/erica/t-erica.jpg',
+	},
+	{
+		id: 3,
+		location: 'Chennai',
+		title: 'Boys',
+		para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sed exercitationem',
+		src: 'https://www.myroomie.in/assets/img/property/orchid/t-orchid.jpg',
+	},
+	{
+		id: 4,
+		location: 'Hyderabad',
+		title: 'Boys',
+		para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sed exercitationem',
+		src: 'https://www.myroomie.in/assets/img/property/knautia/t-knautia.jpg	',
+	},
+	{
+		id: 5,
+		location: 'Coimbatore',
+		title: 'Boys',
+		para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sed exercitationem',
+		src: 'https://www.myroomie.in/assets/img/property/flora/t-flora.jpg',
+	},
+	{
+		id: 6,
+		location: 'Mysore',
+		title: 'Boys',
+		para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sed exercitationem',
+		src: 'https://www.myroomie.in/assets/img/property/orchid/t-orchid.jpg',
+	},
+	{
+		id: 7,
+		location: 'Mysore',
+		title: 'Boys',
+		para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sed exercitationem',
+		src: 'https://www.myroomie.in/assets/img/property/knautia/t-knautia.jpg',
+	},
+	{
+		id: 8,
+		location: 'Mysore',
+		title: 'Boys',
+		para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sed exercitationem',
+		src: 'https://www.myroomie.in/assets/img/property/jasmine/t-jasmine.jpg',
+	},
+	{
+		id: 9,
+		location: 'Mysore',
+		title: 'Boys',
+		para: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sed exercitationem',
+		src: 'https://www.myroomie.in/assets/img/property/hosta/t-hosta.jpg',
+	},
+];
+
+export default LocationApi;

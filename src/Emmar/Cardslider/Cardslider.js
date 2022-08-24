@@ -34,38 +34,22 @@ const Cardslider = () => {
 						<BsFillArrowLeftCircleFill />
 					</button>
 					<div className="image-div">
-						<img
-							src={subdata[num].src}
-							alt=" "
-							style={{ width: '330px', height: '450px' }}
-						/>
+						<img src={subdata[num].src} alt=" " />
 						<h2>{subdata[num].title}</h2>
 						<h5>{subdata[num].para}</h5>
 					</div>
 					<div className="image-div">
-						<img
-							src={subdata[+num + 1].src}
-							alt=" "
-							style={{ width: '330px', height: '450px' }}
-						/>
+						<img src={subdata[+num + 1].src} alt=" " />
 						<h2>{subdata[+num + 1].title}</h2>
 						<h5>{subdata[+num + 1].para}</h5>
 					</div>
 					<div className="image-div">
-						<img
-							src={subdata[+num + 2].src}
-							alt=" "
-							style={{ width: '330px', height: '450px' }}
-						/>
+						<img src={subdata[+num + 2].src} alt=" " />
 						<h2>{subdata[+num + 2].title}</h2>
 						<h5>{subdata[+num + 2].para}</h5>
 					</div>
 					<div className="image-div">
-						<img
-							src={subdata[+num + 3].src}
-							alt=" "
-							style={{ width: '330px', height: '450px' }}
-						/>
+						<img src={subdata[+num + 3].src} alt=" " />
 						<h2>{subdata[+num + 3].title}</h2>
 						<h5>{subdata[+num + 3].para}</h5>
 					</div>

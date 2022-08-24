@@ -62,27 +62,15 @@ const Cardfour = (setOpen) => {
 						</div>
 						<div className="subimages-div-two">
 							<div className="images-2">
-								<img
-									src={subdata[4].src}
-									alt=""
-									style={{ width: '150px', height: '200px' }}
-								/>
+								<img src={subdata[4].src} alt="" />
 								<h4 className="img-title-two">HEBBAL</h4>
 							</div>
 							<div className="images-2">
-								<img
-									src={subdata[5].src}
-									alt=""
-									style={{ width: '150px', height: '200px' }}
-								/>
+								<img src={subdata[5].src} alt="" />
 								<h4 className="img-title-two">JAKKURU</h4>
 							</div>
 							<div className="images-2">
-								<img
-									src={subdata[6].src}
-									alt=""
-									style={{ width: '150px', height: '200px' }}
-								/>
+								<img src={subdata[6].src} alt="" />
 								<h4 className="img-title-two">KODIGEHALLI</h4>
 							</div>
 						</div>
@@ -96,11 +84,7 @@ const Cardfour = (setOpen) => {
 						<button className="leftbutton-two" onClick={slideback}>
 							<BsFillArrowLeftCircleFill />
 						</button>
-						<img
-							src={subdata[move].src}
-							alt=" "
-							style={{ width: '800px', height: '500px' }}
-						/>
+						<img src={subdata[move].src} alt=" " />
 						<button className="rightbutton-two" onClick={slidefront}>
 							<BsFillArrowRightCircleFill />
 						</button>

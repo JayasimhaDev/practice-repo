@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lato:ital,wght@0,400;1,700&family=Montserrat:wght@300&family=Nunito:wght@200&display=swap');
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 .cardsection-two {
 	padding: 0rem;
@@ -11,20 +13,24 @@
 .gallery-section-two {
 	display: flex;
 	gap: 1rem;
-	padding: 2rem;
+	padding: 1rem;
+	background-color: bisque;
+	border-radius: 10px;
+}
+.main-div-two {
+	margin-top: 2rem;
 }
 .text-section-two {
 	display: grid;
-	/* max-width: 470px; */
-	gap: 1rem;
 }
 .col-first-two {
 	display: flex;
-	gap: 9rem;
+	justify-content: space-between;
 }
 .p-tag-title-two {
 	font-size: 10px;
-	color: gray;
+	color: black;
+	font-weight: 1000;
 }
 .direction-button-two {
 	color: white;
@@ -56,13 +62,19 @@
 }
 .images-2 img {
 	border-radius: 5px;
+	width: 100%;
+	transition: transform 0.2s;
+}
+.images-2 img:hover {
+	transform: scale(1.5);
 }
 .img-section-two {
 	position: relative;
 }
 .img-section-two img {
-	width: auto;
-	height: auto;
+	width: 750px;
+	height: 450px;
+	border-radius: 5px;
 }
 .leftbutton-two {
 	top: 50%;
@@ -70,7 +82,7 @@
 	border-style: none;
 	font-size: 20px;
 	background-color: transparent;
-	color: black;
+	color: white;
 }
 .rightbutton-two {
 	top: 50%;
@@ -79,20 +91,30 @@
 	border-style: none;
 	font-size: 20px;
 	background-color: transparent;
-	color: black;
+	color: white;
+}
+.title-card-two {
+	text-align: start;
 }
 @media screen and (max-width: 600px) {
 	.col-first-two {
-		gap: 0.2rem;
+		width: 100%;
+		justify-content: space-between;
+		gap: 0rem;
+	}
+	.text-section-two {
+		gap: 1rem;
 	}
 	.subimages-div-two {
-		display: grid;
+		display: flex;
+		width: 100%;
 	}
 	.gallery-section-two {
 		flex-wrap: wrap;
 	}
-	.img-section-two {
-		overflow: hidden;
+	.img-section-two img {
+		width: 100%;
+		height: 100%;
 	}
 	.subimages-div-two {
 		text-align: center;
@@ -105,6 +127,24 @@
 		margin: 0rem 0rem;
 	}
 	.title-card-two h1 {
-		font-size: 20px;
+		font-size: 25px;
+	}
+	.img-title-two {
+		font-size: 10px;
+	}
+	.p-tag-title-two {
+		font-size: 9px;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.img-section-two img {
+		width: 100%;
+	}
+	.gallery-section-two {
+		width: 100%;
+		display: grid;
+	}
+	.text-section-two {
+		gap: 1rem;
 	}
 }

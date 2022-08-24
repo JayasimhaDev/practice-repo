@@ -8,6 +8,8 @@ import Popup from './Emmar/Popup/Popup';
 import Cardslider from './Emmar/Cardslider/Cardslider';
 import Textslide from './Emmar/textslide/Textslide';
 import Navbar from './Myroomie/Componets/Navbar/Navbar';
+import Singleslide from './Myroomie/Componets/Sliders/Singleslide';
+import LocationSlide from './Myroomie/Componets/Sliders/LocationSlide';
 import { useState } from 'react';
 
 function App() {
@@ -39,6 +41,8 @@ function App() {
 			)} */}
 			<div>
 				<Navbar />
+				<Singleslide />
+				<LocationSlide />
 			</div>
 		</div>
 	);

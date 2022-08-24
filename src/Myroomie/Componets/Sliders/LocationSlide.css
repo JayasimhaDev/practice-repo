@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.location-single-slide {
+	display: flex;
+	width: auto;
+	text-align: center;
+	scroll-behavior: smooth;
+	justify-content: space-evenly;
+	overflow-x: hidden;
+	padding: 5rem;
+}
+.locations {
+}
+r .location-slider {
+	padding: 3rem;
+	position: relative;
+}
+.heading-slide h2 {
+	text-align: center;
+}
+@media (max-width: 600px) {
+	.location-single-slide {
+		overflow: scroll;
+		width: 100%;
+		gap: 1rem;
+	}
+}
